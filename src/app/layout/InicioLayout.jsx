@@ -1,5 +1,4 @@
-import { Box, Grid, Toolbar, Typography } from '@mui/material';
-import { NavBar } from './ui/NavBar';
+import { Box, Grid, Typography } from '@mui/material';
 
 const styles = {
   bgColor: 
@@ -10,15 +9,10 @@ const styles = {
   }
 };
 
-export const LayoutHome = ({children}) => {
+export const InicioLayout = ({children}) => {
   return (
     <>
     <div style={styles.bgColor}>
-
-      <NavBar/>
-
-      <Toolbar/>
-
         <Grid
           container
           direction= "column"
@@ -47,7 +41,7 @@ export const LayoutHome = ({children}) => {
           {children}
         </Box>
 
-        </Grid>
+        </Grid>        
     </div>
     </>
   )

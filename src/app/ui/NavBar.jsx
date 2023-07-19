@@ -65,7 +65,7 @@ export const NavBar = () => {
                 style={styles.linkStyle}
                 to="/home/descarga"
             >
-                Home
+                Inicio
             </NavLink>
         </Box>
         <Box>

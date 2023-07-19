@@ -4,8 +4,8 @@ import { TablePagination, IconButton, Grid, Table, TableCell, tableCellClasses, 
 import { styled } from '@mui/material/styles';
 import SvgIcon from '@mui/material/SvgIcon';
 import { ArrowCircleRight, PlayCircleFilledWhite, StopCircle } from '@mui/icons-material';
-import { AppLayout } from './AppLayout';
-import { SelectCustom } from './SelectCustom';
+import { SelectCustom } from '../atoms/SelectCustom';
+import { AppLayout } from '../layout/AppLayout';
 
 
 function ArrowCircleRightIcon(props) {

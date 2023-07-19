@@ -1,5 +1,5 @@
 import { Toolbar } from '@mui/material';
-import { NavBar } from './ui/NavBar';
+import { NavBar } from '../ui/NavBar';
 
 const styles = {
     bgColor: 

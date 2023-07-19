@@ -1,9 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Prescripciones } from '../app/Prescripciones';
-import { Estadistica } from '../app/Estadistica';
-import { Descargar } from '../app/Descargar';
-import { Resumen } from '../app/Resumen';
-import { Cargar } from '../app/Cargar';
+import { Cargar, Descargar, Estadistica, Prescripciones, Resumen } from '../app/vistas';
 
 
 export const HomeRouter = () => {

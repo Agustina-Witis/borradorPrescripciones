@@ -61,7 +61,7 @@ const styles = {
                 style={styles.linkStyle}
                 to="/home"
             >
-                Home
+                Inicio
             </NavLink>
         </Box>
         <Box style={styles.boxStyle}>

@@ -2,7 +2,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import { Grid, IconButton, Table, TableCell, tableCellClasses, TableContainer, TableHead, TableRow, Typography } from '@mui/material';
 import SvgIcon from '@mui/material/SvgIcon';
-import { AppLayout } from './AppLayout';
+import { AppLayout } from '../layout/AppLayout';
 import { ArrowCircleRight } from '@mui/icons-material';
 
 function ArrowCircleRightIcon(props) {

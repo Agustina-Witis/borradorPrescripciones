@@ -3,8 +3,8 @@ import { Box, Grid, IconButton, Typography } from '@mui/material';
 import { BarPlot, LinePlot, ChartContainer, ChartsXAxis, ChartsYAxis } from '@mui/x-charts';
 import SvgIcon from '@mui/material/SvgIcon';
 import { ArrowCircleRight, CheckCircle, Pending, Error } from '@mui/icons-material';
-import { AppLayout } from './AppLayout';
-import { SelectCustom } from './SelectCustom';
+import { AppLayout } from '../layout/AppLayout';
+import { SelectCustom } from '../atoms/SelectCustom';
 
 
 function ArrowCircleRightIcon(props) {
