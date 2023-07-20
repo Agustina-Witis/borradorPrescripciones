@@ -26,6 +26,7 @@ export const ACtheme = createTheme({
     },
     typography: {
         fontFamily: [
+            'Nunito',
             'Roboto'
         ].join(','),
     }

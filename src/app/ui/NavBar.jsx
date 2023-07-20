@@ -32,6 +32,7 @@ export const NavBar = () => {
     },
     linkStyle: 
     {
+      fontFamily: 'Roboto',
       color: '#F2F3F4',
       textDecoration: 'none',
       textTransform: 'uppercase',
